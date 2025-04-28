@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or readme, please cite as below."
+authors:
+- family-names: "Bruggmann"
+  given-names: "Roland"
+title: "Unreal&reg; EngineProject 'Heartbeat'"
+version: v5.3.0
+date-released: 2025-05
+url: "https://github.com/brugr9/heartbeat53"
