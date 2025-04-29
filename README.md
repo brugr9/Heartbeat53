@@ -18,12 +18,8 @@ Unreal Engine Project "Heartbeat" &mdash; Heart Rate Monitoring Integration
 
 An Unreal&reg; Engine project as proof-of-concept for receiving physiological data from Polar&reg; H10 heart rate monitor.
 
-* Index Terms:
-  * Physiological Measuring, Electrocardiogram, Heart Rate Monitoring
-  * Integration, Messaging, Internet of Things, Machine to Machine
-* Technology:
-  * Unreal Engine, Polar H10 HR Sensor with Chest Strap, Bluetooth, Lab Streaming Layer
-
+* Index Terms: Physiological Measuring, Electrocardiogram, Heart Rate Monitoring, Integration, Messaging, Internet of Things, Machine to Machine
+* Technology: Unreal Engine, Polar H10 HR Sensor with Chest Strap, Bluetooth, Lab Streaming Layer
 * Tags: UE, PolarH10, ECG, HR, HRM, BLE, LSL, IOT, M2M
 
 ---
@@ -96,18 +92,19 @@ In a healthy person, the heart does not beat with a fixed frequency, i.e. with a
 ### A. References
 
 * [1] Polar Electro: **Polar H10**. Heart Rate Sensor with Chest Strap, Online: [https://www.polar.com/en/sensors/h10-heart-rate-sensor](https://www.polar.com/en/sensors/h10-heart-rate-sensor)
-* [2] **Lab Streaming Layer**. Website, Online: [https://labstreaminglayer.org/](https://labstreaminglayer.org/)
-* [3] **Lab Streaming Layer**. Documentation, Online: [https://labstreaminglayer.readthedocs.io/](hthttps://labstreaminglayer.readthedocs.io/)
-* [4] **Lab Streaming Layer**. Repository, Online: [https://github.com/sccn/labstreaminglayer](https://github.com/sccn/labstreaminglayer)
+* **Lab Streaming Layer**:
+  * [2] Website, Online: [https://labstreaminglayer.org/](https://labstreaminglayer.org/)
+  * [3] Documentation, Online: [https://labstreaminglayer.readthedocs.io/](hthttps://labstreaminglayer.readthedocs.io/)
+  * [4] Repository, Online: [https://github.com/sccn/labstreaminglayer](https://github.com/sccn/labstreaminglayer)
 * [10]  **RR Interval**. In: ScienceDirect. From: Principles and Practice of Sleep Medicine (Fifth Edition), 2011. Online: [https://www.sciencedirect.com/topics/nursing-and-health-professions/RR-interval](https://www.sciencedirect.com/topics/nursing-and-health-professions/RR-interval)
 * [11] Mike Cadogan: **R wave Overview**. February 4, 2021. In: Live In The Fastlane &ndash; ECG Library, ECG Basics. Online: [https://litfl.com/r-wave-ecg-library/](https://litfl.com/r-wave-ecg-library/)
-* [12] **Heart Rate Variability**. In: Website of Kubios Oy, Section "HRV Resources". Online: [https://www.kubios.com/about-hrv/](https://www.kubios.com/about-hrv/)
+* [12] **About Heart Rate Variability (HRV)**. In: Website of Kubios Oy, Section "HRV Blog". Online: [https://www.kubios.com/blog/about-heart-rate-variability/](https://www.kubios.com/blog/about-heart-rate-variability/)
 
 ### B. Readings
 
-* Ch&#281;&cacute;, A.; Olczak, D.; Fernandes, T. and Ferreira, H. (2015). **Physiological Computing Gaming - Use of Electrocardiogram as an Input for Video Gaming**. In: Proceedings of the 2nd International Conference on Physiological Computing Systems - PhyCS, ISBN 978-989-758-085-7; ISSN 2184-321X, pages 157-163. DOI: [10.5220/0005244401570163](http://dx.doi.org/10.5220/0005244401570163)
+* Ch&#281;&cacute;, A.; Olczak, D.; Fernandes, T. and Ferreira, H. (2015): **Physiological Computing Gaming - Use of Electrocardiogram as an Input for Video Gaming**. In: Proceedings of the 2nd International Conference on Physiological Computing Systems - PhyCS, ISBN 978-989-758-085-7; ISSN 2184-321X, pages 157-163. DOI: [10.5220/0005244401570163](http://dx.doi.org/10.5220/0005244401570163)
 
-* [Kothe2024] Kothe, Christian et al., 2024: **The Lab Streaming Layer for Synchronized Multimodal Recording**. In: bioRxiv. Cold Spring Harbor Laboratory. DOI: 10.1101/2024.02.13.580071, Online: [https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071](https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071), eprint: [https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071.full.pdf](https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071.full.pdf)
+* [Kothe2024] Kothe, Christian et al. (2024): **The Lab Streaming Layer for Synchronized Multimodal Recording**. In: bioRxiv &ndash; The Preprint Server for Biology. Cold Spring Harbor Laboratory. DOI: 10.1101/2024.02.13.580071, Online: [https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071](https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071), eprint: [https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071.full.pdf](https://www.biorxiv.org/content/early/2024/02/14/2024.02.13.580071.full.pdf)
 
 ### C. Acknowledgements
 
@@ -122,7 +119,9 @@ In a healthy person, the heart does not beat with a fixed frequency, i.e. with a
 * The word mark Polar and its logos are trademarks of Polar Electro Oy.
 * The Bluetooth word mark and logos are registered trademarks owned by Bluetooth SIG, Inc.
 * Windows and PowerShell are registered trademarks of Microsoft Corporation.
-* From the Website of Lab Streaming Layer: "The Lab Streaming Layer was originally created by Christian Kothe while at the Swartz Center for Computational Neuroscience at the University of California, San Diego. The project is currently maintained by an international team of developers (see contributors), with contributions from LSL community users and hardware/software vendors." "The LSL project has been funded in part by the Army Research Laboratory (under Cooperative Agreement Number W911NF-10-2-0022) and the National Institute of Neurological Disorders and Stroke (grant 3R01NS047293-06S1)."
+* From the Website of Lab Streaming Layer:
+  * "The Lab Streaming Layer was originally created by Christian Kothe while at the Swartz Center for Computational Neuroscience at the University of California, San Diego. The project is currently maintained by an international team of developers (see contributors), with contributions from LSL community users and hardware/software vendors."
+  * "The LSL project has been funded in part by the Army Research Laboratory (under Cooperative Agreement Number W911NF-10-2-0022) and the National Institute of Neurological Disorders and Stroke (grant 3R01NS047293-06S1)."
 
 ### E. Disclaimer
 
