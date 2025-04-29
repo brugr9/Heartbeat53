@@ -1,12 +1,12 @@
 # Unreal Engine Project "Heartbeat" &ndash; Readme
 
 * Author: Copyright 2025 Roland Bruggmann aka brugr9
-* Profile on UE Marketplace: [https://www.unrealengine.com/marketplace/profile/brugr9](https://www.unrealengine.com/marketplace/profile/brugr9)
+* Profile on Epic Games Marketplace FAB: [https://www.fab.com/sellers/brugr9](https://www.fab.com/sellers/brugr9)
 * Profile on Epic Developer Community: [https://dev.epicgames.com/community/profile/PQBq/brugr9](https://dev.epicgames.com/community/profile/PQBq/brugr9)
 
 ---
 
-![Animation Screenshot of Map_PSL_Demo PIE, Heartbeat Update](Docs/MapPSLDemoPIE-HeartbeatUpdate.gif)
+![Animation Screenshot of Map_LSL_Demo PIE, Heartbeat Update](Docs/MapLSLDemoPIE-HeartbeatUpdate.gif)
 
 ![UE Project Heartbeat in Epic Games Launcher](Docs/UEProjectHeartbeat-EpicGamesLauncher.png "UE Project Heartbeat in Epic Games Launcher")
 
@@ -25,6 +25,8 @@ An Unreal&reg; Engine project as proof-of-concept for receiving physiological da
   * Unreal Engine, Polar H10 HR Sensor with Chest Strap, Bluetooth, Lab Streaming Layer
 
 * Tags: UE, PolarH10, ECG, HR, HRM, BLE, IOT, M2M
+
+mqtt iot integration unreal-engine ue5 polar-h10 
 
 ---
 
@@ -132,7 +134,7 @@ This documentation has **not been reviewed or approved** by the *Food and Drug A
 
 To acknowledge this work, please cite
 
-> Bruggmann, R. (2025): Unreal&reg; Engine Project "Heartbeat" [Computer software], Version v5.3.0. Licensed under Creative Commons Attribution-ShareAlike 4.0 International. Online: https://github.com/brugr9/heartbeat53
+> Bruggmann, R. (2025): Unreal&reg; Engine Project "Heartbeat" [Computer software], Version v5.3.0. Licensed under Creative Commons Attribution-ShareAlike 4.0 International. Online: https://github.com/brugr9/Heartbeat53
 
 ```bibtex
 @software{Bruggmann_Heartbeat_2025,
@@ -140,7 +142,7 @@ To acknowledge this work, please cite
   year = {2025},
   version = {v5.3.0},
   title = {{Unreal Engine Project 'Heartbeat'}},
-  url = {https://github.com/brugr9/heartbeat53}
+  url = {https://github.com/brugr9/Heartbeat53}
 }
 ```
 
