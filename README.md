@@ -10,8 +10,6 @@
 
 Unreal Engine Project "Heartbeat" &mdash; Heart Rate Monitoring Integration
 
-<div style='page-break-after: always'></div>
-
 ## Description
 
 An Unreal&reg; Engine project as proof of concept for receiving physiological data from Polar&reg; H10 heart rate monitor.
@@ -117,6 +115,18 @@ Startup the UE project "Heartbeat53" (see Figure 3.1.). In the Unreal Engine Edi
 ![Unreal Engine Plugins Browser Tab listing LabStreamingLayer Plugin](Docs/ScreenshotPlugin.png)<br>
 *Figure 3.2.: Unreal Engine Plugins Browser Tab listing "LabStreamingLayer Plugin"*
 
+<!-->
+ECG:
+
+LSL timestamp; sensor timestamp [ns]; timestamp [ms]; ecg [uV]
+2022-07-19T00:57:03.166;599616465930684049;0.0;10952
+
+ACC:
+
+LSL timestamp; sensor timestamp [ns]; X [mg]; Y [mg]; Z [mg]
+2022-07-19T00:57:22.763;599616485954551349;-746;56;631
+<-->
+
 ![Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine](Docs/LabRecorder_2.png)<br>
 *Figure 3.: Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine*
 
@@ -205,13 +215,13 @@ This documentation has **not been reviewed or approved** by the *Food and Drug A
 
 To acknowledge this work, please cite
 
-> Bruggmann, R. (2025): Unreal&reg; Engine Project "Heartbeat" [Computer software], Version v5.3.0. Licensed under Creative Commons Attribution-ShareAlike 4.0 International. Online: https://github.com/brugr9/Heartbeat53
+> Bruggmann, R. (2025): Unreal&reg; Engine Project "Heartbeat" [Computer software], Version v5.3.1. Licensed under Creative Commons Attribution-ShareAlike 4.0 International. Online: https://github.com/brugr9/Heartbeat53
 
 ```bibtex
 @software{Bruggmann_Heartbeat_2025,
   author = {Bruggmann, Roland},
   year = {2025},
-  version = {v5.3.0},
+  version = {v5.3.1},
   title = {{Unreal Engine Project 'Heartbeat'}},
   url = {https://github.com/brugr9/Heartbeat53}
 }
