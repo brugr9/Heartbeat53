@@ -51,7 +51,7 @@ An Unreal&reg; Engine project as proof of concept for receiving physiological da
 
 ## 1. Concept
 
-We setup a data flow as follwos (see figure 1.1.):
+We setup a data flow as follows (see figure 1.1.):
 
 ![Data Flow](Docs/DataFlow.png)<br>
 *Figure 1.1.: Data Flow*
