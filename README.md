@@ -70,27 +70,33 @@ We record all the LSL streams with App *Lab Recorder* (cp. [5]).
 ### 2.1. Polar H10
 
 1. Wear the Polar H10 HR Sensor with Chest Strap.
-2. Assure that Polar H10 is visible via Bluethooth, resp. configure the H10 using Polar Flow App or Polar Beat App.
-3. On your laptop activate Bluetooth and pair Polar H10, e.g., via Bluetooth LE Explorer (cp. [2]).
+2. Assure that Polar H10 is visible via Bluethooth, resp. configure the H10 using Polar Beat App or Polar Flow App (see figures 2.1.1. and 2.1.2.).
+3. On your laptop activate Bluetooth and pair Polar H10, e.g., via Bluetooth LE Explorer (cp. [2], see figures 2.1.3., 2.1.4. and 2.1.5.).
+
+![App Polar Beat, Polar H10 Settings](Docs/AppPolarBeat-Settings.jpg)<br>
+*Figure 2.1.1.: App Polar Beat, Polar H10 Settings*
+
+![App Polar Flow, Polar H10 Settings](Docs/AppPolarFlow-Settings.jpg)<br>
+*Figure 2.1.2.: App Polar Flow, Polar H10 Settings*
 
 ![Bluetooth LE Explorer, Tab Discover listing Polar H10](Docs/BluetoothLEExplorer-Discover.png)<br>
-*Figure 2.1.1.: Bluetooth LE Explorer, Tab Discover listing Polar H10*
+*Figure 2.1.3.: Bluetooth LE Explorer, Tab Discover listing Polar H10*
 
 ![Bluetooth LE Explorer listing paired Polar H10](Docs/BluetoothLEExplorer-Paired.png)<br>
-*Figure 2.1.2.: Bluetooth LE Explorer listing paired Polar H10*
+*Figure 2.1.4.: Bluetooth LE Explorer listing paired Polar H10*
 
 ![Windows System Settings listing Polar H10 as connected](Docs/SystemSettings-Bluetooth.png)<br>
-*Figure 2.1.3.: Windows System Settings listing Polar H10 as connected*
+*Figure 2.1.5.: Windows System Settings listing Polar H10 as connected*
 
 ### 2.2. PolarBLE
 
-Install application *PolarBLE* (cp. [4]). Start the same, click the 'Scan'-Button and search for the listed Polar H10 (see Figure 2.2.1.). Click on the listed Polar H10 device to start the LSL streams (ECG and ACC). We may use app *Lab Recorder* (cp. [5]) to check if the streams are up and running (see Figure 2.2.2.).
+Install application *PolarBLE* (cp. [4]). Start the same, click the 'Scan'-Button and search for the listed Polar H10 (see figure 2.2.1.). Click on the listed Polar H10 device to start the LSL streams (ECG and ACC). We may use app *Lab Recorder* (cp. [5]) to check if the streams are up and running (see figure 2.2.2.).
 
 ![PolarBLE listing Polar H10](Docs/PolarBLE.png)<br>
 *Figure 2.2.1.: PolarBLE listing Polar H10*
 
-![Lab Recorder listing LSL Streams from Polar H10 AAC and ECG Data](Docs/LabRecorder_1.png)<br>
-*Figure 2.2.2.: Lab Recorder listing LSL Streams from Polar H10 AAC and ECG Data*
+![Lab Recorder listing LSL Streams from Polar H10 ACC and ECG Data](Docs/LabRecorder_1.png)<br>
+*Figure 2.2.2.: Lab Recorder listing LSL Streams from Polar H10 ACC and ECG Data*
 
 <div style='page-break-after: always'></div>
 
@@ -103,29 +109,33 @@ Install application *PolarBLE* (cp. [4]). Start the same, click the 'Scan'-Butto
 ![UE Project Heartbeat53 in Epic Games Launcher](Docs/UEProjectHeartbeat-EpicGamesLauncher.png "UE Project Heartbeat53 in Epic Games Launcher")<br>
 *Figure 2.3.1.: UE Project Heartbeat53 in Epic Games Launcher*
 
+<div style='page-break-after: always'></div>
+
 ## 3. UE Project Heartbeat
 
 ## 3.1. Startup
 
-Startup the UE project "Heartbeat53" (see Figure 3.1.). In the Unreal Engine Editor the LabStreamingLayer plugin is found under "Edit > Plugins > Installed > Input Devices > LabStreamingLayer Plugin" (see Figure 3.2.).
+Startup the UE project "Heartbeat53". In the Unreal Engine Editor the LabStreamingLayer plugin is found under "Edit > Plugins > Installed > Input Devices > LabStreamingLayer Plugin" (see figure 3.1.2.).
 
 ![Splash Screen of UE Project Heartbeat](Docs/ScreenshotSplash.png)<br>
-*Figure 3.1.: Splash Screen of UE Project "Heartbeat"*
+*Figure 3.1.1.: Splash Screen of UE Project "Heartbeat"*
 
 ![Unreal Engine Plugins Browser Tab listing LabStreamingLayer Plugin](Docs/ScreenshotPlugin.png)<br>
-*Figure 3.2.: Unreal Engine Plugins Browser Tab listing "LabStreamingLayer Plugin"*
+*Figure 3.1.2.: Unreal Engine Plugins Browser Tab listing "LabStreamingLayer Plugin"*
 
-<!-->
 ECG:
 
+```csv
 LSL timestamp; sensor timestamp [ns]; timestamp [ms]; ecg [uV]
 2022-07-19T00:57:03.166;599616465930684049;0.0;10952
+```
 
 ACC:
 
+```csv
 LSL timestamp; sensor timestamp [ns]; X [mg]; Y [mg]; Z [mg]
 2022-07-19T00:57:22.763;599616485954551349;-746;56;631
-<-->
+```
 
 ![Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine](Docs/LabRecorder_2.png)<br>
 *Figure 3.: Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine*
