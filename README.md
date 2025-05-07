@@ -65,6 +65,8 @@ In the Unreal Engine we use the LabStreamingLayer Plugin (cp. [6]).
 
 We record all the LSL streams with App *Lab Recorder* (cp. [5]).
 
+<div style='page-break-after: always'></div>
+
 ## 2. Setup
 
 ### 2.1. Polar H10
@@ -88,6 +90,8 @@ We record all the LSL streams with App *Lab Recorder* (cp. [5]).
 ![Windows System Settings listing Polar H10 as connected](Docs/SystemSettings-Bluetooth.png)<br>
 *Figure 2.1.5.: Windows System Settings listing Polar H10 as connected*
 
+<div style='page-break-after: always'></div>
+
 ### 2.2. PolarBLE
 
 Install application *PolarBLE* (cp. [4]). Start the same, click the 'Scan'-Button and search for the listed Polar H10 (see figure 2.2.1.). Click on the listed Polar H10 device to start the LSL streams (ECG and ACC). We may use app *Lab Recorder* (cp. [5]) to check if the streams are up and running (see figure 2.2.2.).
@@ -106,8 +110,8 @@ Install application *PolarBLE* (cp. [4]). Start the same, click the 'Scan'-Butto
 2. Purchase Unreal Engine LabStreamingLayer Plugin as found on the Epic Games Marketplace *FAB* (cp. [6]) and install the same to Unreal Engine version 5.3.
 3. Clone UE project "Heartbeat53" using git, e.g., by ```git clone https://github.com/brugr9/Heartbeat53.git```.
 
-![UE Project Heartbeat53 in Epic Games Launcher](Docs/UEProjectHeartbeat-EpicGamesLauncher.png "UE Project Heartbeat53 in Epic Games Launcher")<br>
-*Figure 2.3.1.: UE Project Heartbeat53 in Epic Games Launcher*
+![Epic Games Launcher listing Project Heartbeat53 and LabStreamingLayer Plugin](Docs/EpicGamesLauncher.png "Epic Games Launcher listing Project Heartbeat53 and LabStreamingLayer Plugin")<br>
+*Figure 2.3.1.: Epic Games Launcher listing Project Heartbeat53 and LabStreamingLayer Plugin*
 
 <div style='page-break-after: always'></div>
 
@@ -123,6 +127,14 @@ Startup the UE project "Heartbeat53". In the Unreal Engine Editor the LabStreami
 ![Unreal Engine Plugins Browser Tab listing LabStreamingLayer Plugin](Docs/ScreenshotPlugin.png)<br>
 *Figure 3.1.2.: Unreal Engine Plugins Browser Tab listing "LabStreamingLayer Plugin"*
 
+<div style='page-break-after: always'></div>
+
+## 3.2. Assets
+
+## 3.3. LSL Actor Components
+
+## 3.3.1. LSL Inlet
+
 ECG:
 
 ```csv
@@ -137,8 +149,12 @@ LSL timestamp; sensor timestamp [ns]; X [mg]; Y [mg]; Z [mg]
 2022-07-19T00:57:22.763;599616485954551349;-746;56;631
 ```
 
+## 3.3.2. LSL Outlet
+
+While PIE, in app *Lab Recorder* push the Update-Button and check if the "UE_Heartbeat" stream gets listed (see figure 3.3.2.1.).
+
 ![Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine](Docs/LabRecorder_2.png)<br>
-*Figure 3.: Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine*
+*Figure 3.3.2.1.: Lab Recorder listing LSL Streams from Polar H10 as well as from Unreal Engine*
 
 <div style='page-break-after: always'></div>
 
