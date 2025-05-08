@@ -35,9 +35,6 @@ An Unreal&reg; Engine project as proof of concept for receiving physiological da
   * [3.1. Startup](#31-startup)
 * [Appendix](#appendix)
   * [Acronyms](#acronyms)
-  * [Glossary](#glossary)
-    * [HRM – Heart Rate Variability](#hrm--heart-rate-variability)
-    * [HRM – RR Interval](#hrm--rr-interval)
   * [A. References](#a-references)
   * [B. Readings](#b-readings)
   * [C. Acknowledgements](#c-acknowledgements)
@@ -75,11 +72,9 @@ We record all the LSL streams with App *Lab Recorder* (cp. [5]).
 2. Assure that Polar H10 is visible via Bluethooth, resp. configure the H10 using Polar Beat App or Polar Flow App (see figures 2.1.1. and 2.1.2.).
 3. On your laptop activate Bluetooth and pair Polar H10, e.g., via Bluetooth LE Explorer (cp. [2], see figures 2.1.3., 2.1.4. and 2.1.5.).
 
-![App Polar Beat, Polar H10 Settings](Docs/AppPolarBeat-Settings.jpg)<br>
-*Figure 2.1.1.: App Polar Beat, Polar H10 Settings*
-
-![App Polar Flow, Polar H10 Settings](Docs/AppPolarFlow-Settings.jpg)<br>
-*Figure 2.1.2.: App Polar Flow, Polar H10 Settings*
+| ![App Polar Beat, Polar H10 Settings](Docs/AppPolarBeat-Settings.jpg) | ![App Polar Flow, Polar H10 Settings](Docs/AppPolarFlow-Settings.jpg) |
+|:-------------------------:|:-------------------------:|
+| *Figure 2.1.1.: App Polar Beat, Polar H10 Settings* | *Figure 2.1.2.: App Polar Flow, Polar H10 Settings* |
 
 ![Bluetooth LE Explorer, Tab Discover listing Polar H10](Docs/BluetoothLEExplorer-Discover.png)<br>
 *Figure 2.1.3.: Bluetooth LE Explorer, Tab Discover listing Polar H10*
@@ -94,13 +89,14 @@ We record all the LSL streams with App *Lab Recorder* (cp. [5]).
 
 ### 2.2. PolarBLE
 
-Install application *PolarBLE* (cp. [4]). Start the same, click the 'Scan'-Button and search for the listed Polar H10 (see figure 2.2.1.). Click on the listed Polar H10 device to start the LSL streams (ECG and ACC). We may use app *Lab Recorder* (cp. [5]) to check if the streams are up and running (see figure 2.2.2.).
+Install application *PolarBLE* (cp. [4]). Start the same and push the 'Scan'-Button (see figure 2.2.1.). Search for the listed Polar H10 and click on the same to start streaming (see figure 2.2.2.). We may use app *Lab Recorder* (cp. [5]) to check if the streams are up and running (see figure 2.2.3.).
 
-![PolarBLE listing Polar H10](Docs/PolarBLE.png)<br>
-*Figure 2.2.1.: PolarBLE listing Polar H10*
+| ![PolarBLE listing Polar H10](Docs/PolarBLE.png) | ![PolarBLE streaming from Polar H10](Docs/PolarBLE_2.png) |
+|:-------------------------:|:-------------------------:|
+| *Figure 2.2.1.: PolarBLE scanning and listing Polar H10* | *Figure 2.2.2.: PolarBLE streaming from Polar H10* |
 
 ![Lab Recorder listing LSL Streams from Polar H10 ACC and ECG Data](Docs/LabRecorder_1.png)<br>
-*Figure 2.2.2.: Lab Recorder listing LSL Streams from Polar H10 ACC and ECG Data*
+*Figure 2.2.3.: Lab Recorder listing LSL Streams from Polar H10 ACC and ECG Data*
 
 <div style='page-break-after: always'></div>
 
@@ -164,37 +160,15 @@ While PIE, in app *Lab Recorder* push the Update-Button and check if the "UE_Hea
 
 * ACC &mdash; Acceleration
 * BLE &mdash; Bluetooth Low Energy
-* bpm &mdash; Beats per Minute
 * ECG &mdash; Electrocardiogram
-* HR &mdash; Heart Rate
-* HRM &mdash; Heart Rate Monitor
-* HRV &mdash; Heart Rate Variability
-* IBI &mdash; Interbeat Interval
 * IoT &mdash; Internet of Things
 * LSL &mdash; LabStreamingLayer
 * M2M &mdash; Machine to Machine
 * PIE &mdash; Play-in-Editor
 * PoC &mdash; Proof-of-Concept
-* RRI &mdash; RR Interval
 * SCCN &mdash; Swartz Center for Computational Neuroscience
 * UCSD &mdash; University of California, San Diego
 * UE &mdash; Unreal Engine
-
-<div style='page-break-after: always'></div>
-
-### Glossary
-
-#### HRM &ndash; RR Interval
-
-The RR interval RRI is an interbeat interval IBI, more precisely the time elapsed between two successive R-waves of the QRS signal on the electrocardiogram, in milliseconds [ms] (cp. [10] and [11]).
-
-#### HRM &ndash; Heart Rate Variability
-
-In a healthy person, the heart does not beat with a fixed frequency, i.e. with a resting pulse of, for example, 60 heartbeats per minute, each beat does not occur after exactly one second or 1000 milliseconds. Fluctuations of 30 to 100 milliseconds in the heartbeat sequence occur as a natural mode of operation of the heart.
-
-> *Heart rate variability (HRV) is the amount by which the time interval between successive heartbeats (interbeat interval, IBI) varies from beat to beat. The magnitude of this variability is small (measured in milliseconds), and therefore, assessment of HRV requires specialized measurement devices and accurate analysis tools. Typically HRV is extracted from an electrocardiogram (ECG) measurement by measuring the time intervals between successive heartbeats [...].*
-*Heart rate variability in healthy individuals is strongest during rest, whereas during stress and physical activity HRV is decreased. The magnitude of heart rate variability is different between individuals. High HRV is commonly linked to young age, good physical fitness, and good overall health.*
-(Kubios, cp. [12]).
 
 <div style='page-break-after: always'></div>
 
@@ -206,9 +180,6 @@ In a healthy person, the heart does not beat with a fixed frequency, i.e. with a
 * [4] Mark M. Span: App *PolarBLE*, GitHub Repository, Online: [https://github.com/markspan/PolarBLE](https://github.com/markspan/PolarBLE)
 * [5] LSL App *Lab Recorder*, GitHub Repository, Online: [https://github.com/labstreaminglayer/App-LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)
 * [6] Bertrand Richard: Unreal Engine *LabStreamingLayer Plugin*, on Epic Games Marketplace *FAB*: [https://www.fab.com/listings/67c60b96-90d1-4261-92a4-19a098a76c63](https://www.fab.com/listings/67c60b96-90d1-4261-92a4-19a098a76c63); GitHub Repository: [https://github.com/labstreaminglayer/plugin-UE4](https://github.com/labstreaminglayer/plugin-UE4)
-* [10]  *RR Interval*. In: ScienceDirect. From: Principles and Practice of Sleep Medicine (Fifth Edition), 2011. Online: [https://www.sciencedirect.com/topics/nursing-and-health-professions/RR-interval](https://www.sciencedirect.com/topics/nursing-and-health-professions/RR-interval)
-* [11] Mike Cadogan: *R wave Overview*. February 4, 2021. In: Live In The Fastlane &ndash; ECG Library, ECG Basics. Online: [https://litfl.com/r-wave-ecg-library/](https://litfl.com/r-wave-ecg-library/)
-* [12] *About Heart Rate Variability (HRV)*. In: Website of Kubios Oy, Section "HRV Blog". Online: [https://www.kubios.com/blog/about-heart-rate-variability/](https://www.kubios.com/blog/about-heart-rate-variability/)
 
 ### B. Readings
 
@@ -221,8 +192,6 @@ In a healthy person, the heart does not beat with a fixed frequency, i.e. with a
 * Typeface: Harlow Solid Italic, Designed by Colin Brignall.
 * 3D Model: "*Heart*", by phenopeia, January 16, 2015. Online: [https://skfb.ly/CCyL](https://skfb.ly/CCyL), licensed [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 
-<div style='page-break-after: always'></div>
-
 ### D. Attribution
 
 * The word mark Unreal and its logo are Epic Games, Inc. trademarks or registered trademarks in the US and elsewhere.
@@ -232,6 +201,8 @@ In a healthy person, the heart does not beat with a fixed frequency, i.e. with a
 * From the Website of LabStreamingLayer:
   * "The Lab Streaming Layer was originally created by Christian Kothe while at the Swartz Center for Computational Neuroscience at the University of California, San Diego. The project is currently maintained by an international team of developers (see contributors), with contributions from LSL community users and hardware/software vendors."
   * "The LSL project has been funded in part by the Army Research Laboratory (under Cooperative Agreement Number W911NF-10-2-0022) and the National Institute of Neurological Disorders and Stroke (grant 3R01NS047293-06S1)."
+
+<div style='page-break-after: always'></div>
 
 ### E. Disclaimer
 
