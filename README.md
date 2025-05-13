@@ -180,7 +180,7 @@ While PIE, in app *Lab Recorder* push the Update-Button and check if the "UE_Hea
 > * *System integration refers to the unification of functionalities within a single software, data into a shared structure, or processes through a common platform.*
 > * *System coupling, on the other hand, describes the collaboration of specialized tools via well-coordinated interfaces.*
 
-(HiveMQ, cp. [9.1])
+(mip Consult GmbH, [https://mip-software.com/system-integration-and-coupling/](https://mip-software.com/system-integration-and-coupling/))
 
 <div style='page-break-after: always'></div>
 
