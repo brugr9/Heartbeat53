@@ -35,6 +35,7 @@ An Unreal&reg; Engine project as proof of concept for receiving physiological da
   * [3.1. Startup](#31-startup)
 * [Appendix](#appendix)
   * [Acronyms](#acronyms)
+  * [Glossary](#glossary)
   * [A. References](#a-references)
   * [B. Readings](#b-readings)
   * [C. Acknowledgements](#c-acknowledgements)
@@ -113,7 +114,7 @@ Install application *PolarBLE* (cp. [4]). Start the same and push the 'Scan'-But
 
 ## 3. UE Project Heartbeat
 
-## 3.1. Startup
+### 3.1. Startup
 
 Startup the UE project "Heartbeat53". In the Unreal Engine Editor the LabStreamingLayer plugin is found under "Edit > Plugins > Installed > Input Devices > LabStreamingLayer Plugin" (see figure 3.1.2.).
 
@@ -125,11 +126,11 @@ Startup the UE project "Heartbeat53". In the Unreal Engine Editor the LabStreami
 
 <div style='page-break-after: always'></div>
 
-## 3.2. Assets
+### 3.2. Assets
 
-## 3.3. LSL Actor Components
+### 3.3. LSL Actor Components
 
-## 3.3.1. LSL Inlet
+#### 3.3.1. LSL Inlet
 
 ECG:
 
@@ -145,7 +146,7 @@ LSL timestamp; sensor timestamp [ns]; X [mg]; Y [mg]; Z [mg]
 2022-07-19T00:57:22.763;599616485954551349;-746;56;631
 ```
 
-## 3.3.2. LSL Outlet
+#### 3.3.2. LSL Outlet
 
 While PIE, in app *Lab Recorder* push the Update-Button and check if the "UE_Heartbeat" stream gets listed (see figure 3.3.2.1.).
 
@@ -169,6 +170,17 @@ While PIE, in app *Lab Recorder* push the Update-Button and check if the "UE_Hea
 * SCCN &mdash; Swartz Center for Computational Neuroscience
 * UCSD &mdash; University of California, San Diego
 * UE &mdash; Unreal Engine
+
+### Glossary
+
+#### System Integration and Coupling
+
+> *System integration and coupling are central concepts in modern software development, enabling the support of complex and diverse workflows through tailored solutions:*
+>
+> * *System integration refers to the unification of functionalities within a single software, data into a shared structure, or processes through a common platform.*
+> * *System coupling, on the other hand, describes the collaboration of specialized tools via well-coordinated interfaces.*
+
+(HiveMQ, cp. [9.1])
 
 <div style='page-break-after: always'></div>
 
