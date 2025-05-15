@@ -12,9 +12,9 @@ Unreal Engine Project "Heartbeat": Heart Rate Monitoring Integration
 
 ## Description
 
-An Unreal&reg; Engine project as proof of concept for receiving physiological data from Polar&reg; H10 heart rate sensor via Blotooth and LabStreamingLayer.
+An Unreal&reg; Engine project as proof of concept for receiving physiological data from Polar&reg; H10 heart rate sensor via Bluetooth and LabStreamingLayer.
 
-* Index Terms: Physiological Measuring, Electrocardiogram, Heart Rate Monitoring, Integration, Messaging, Internet of Things, Machine to Machine
+* Index Terms: Physiological Measuring, Electrocardiogram, Heart Rate Monitoring, Integration, Messaging, Internet of Things
 * Technology: Polar H10 HR Sensor with Chest Strap, Bluetooth Low Energy, LabStreamingLayer, Unreal Engine
 * Tags: BLE, ECG, HR, HRM, IoT, LSL, PolarH10, UE
 
